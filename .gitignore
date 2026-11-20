@@ -1,0 +1,49 @@
+# 환경 설정과 가상환경
+.env
+.env.*
+*.env
+.venv*/
+venv/
+env/
+ENV/
+
+# 파이썬 캐시와 분석 결과
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage*
+htmlcov/
+
+# 빌드와 생성 결과
+build/
+dist/
+*.egg-info/
+.eggs/
+output/
+
+# 로그, 편집기 설정, 임시 파일
+*.log
+*.log.*
+logs/
+.idea/
+.vscode/
+.vs/
+*.sublime-project
+*.sublime-workspace
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*~
+tmp/
+temp/
+.DS_Store
+Thumbs.db

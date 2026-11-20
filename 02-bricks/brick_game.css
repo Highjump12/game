@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 8px;
+  background: #fff;
+  color: #181818;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  width: min(960px, 100%, max(280px, calc((100vh - 82px) * 1.6)));
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 14px;
+  font-size: 14px;
+}
+
+.guide {
+  margin: 0;
+}
+
+.guide {
+  margin-block: 3px 8px;
+  font-size: 14px;
+}
+
+.stage {
+  position: relative;
+  outline: 1px solid #222;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.message {
+  position: absolute;
+  inset: 53% 8% auto;
+  width: fit-content;
+  max-width: 84%;
+  margin-inline: auto;
+  padding: 10px 16px;
+  background: #181818;
+  color: white;
+  border-radius: 6px;
+  text-align: center;
+}
